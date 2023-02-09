@@ -1,0 +1,336 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    /* display: inline-block; */
+    width: 56px;
+    height: 1300px;
+    background-color: black;
+}
+.logo{
+    margin-top: 32px;
+    width: 56px;
+    height: 53px;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    background-color: #EB9CBA;
+    padding: 3px;
+    margin: 4px;
+}
+.Homepage{
+    display: flex;
+    
+}
+input{
+    font-size: 15px;
+    width: 80%;
+    height: 25px;
+    margin-left: 15px;
+    margin: 23px 15px;
+}
+.month{
+    box-shadow: 2px 2px 3px #00000029;
+    height: 30px;
+    padding-left: 13px;
+}
+.clients-data{
+    padding: 10px;
+    box-shadow: 5px 5px 6px #00000029;
+    margin: 7px;
+    border-radius: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.clients-data:hover{
+    background-color: #112949;
+    color: #9CBDEB;
+ }
+#name{
+    color: #112949;
+   font-size: 18px;
+   text-align: left;
+   margin: 0px;
+}
+#name:hover{
+    color: white;
+    cursor: pointer;
+}
+#domain{
+    color: #112949;
+    text-align: right;
+    padding-left: 156px;
+    
+}
+#entities{
+    color: #707070;
+    margin: 0px;
+}
+#users{
+    padding-left: 58%;
+
+}
+.section1{
+   display: flex;
+   top: 0px;
+    left: 60px;
+    width: 465px;
+    height: 1300px;
+}
+.title{
+    box-shadow: 0px 1px 6px #00000029;
+    height: 11%;
+    width: 100%;
+    background-color: white;
+}
+.heading{
+    height: 44px;
+    font-size: 36px;
+    margin-top: 28px;
+    margin-left: 16px;
+}
+#text1{
+    position: absolute;
+    top: 33px;
+    left: 224px;
+    width: 98px;
+    height: 19px;
+    text-align: left;
+font: normal normal normal 16px/19px Louis George Café;
+letter-spacing: 0px;
+color: #3CC3F2;
+}
+#addClients{
+    position: absolute;
+    top: 43px;
+    left: 400px;
+}
+.addInput{
+    position: absolute;
+    top: 0px;
+    margin-top: 6px;
+    width: 322px;
+    margin-left: 5px;
+}
+
+.addInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 334px;
+    height: 300px;
+    background-color: lightblue;
+    margin: 184px 38px;
+}
+.inputs{
+    margin: 10px;
+    padding: 4px;
+    font-size: 18px
+}
+#submit-button{
+    height: 27px;
+    margin-left: -125px;
+    margin-top: 5px;
+    width: 58px;
+}
+#cancel-button{
+    margin-top: -27px;
+    margin-left: 90px;
+    height: 27px;
+    width: 58px;
+}
+
+
+
+
+/* section 2*/
+.section2{
+    margin: 20px;
+}
+.profile{
+    width: 1383px;
+    height: 72px;
+    text-align: right;
+    box-shadow: 0px 1px 6px #00000029;
+    font-size: 28px;
+    background-color: white;
+}
+.details{
+    box-shadow: 0px 1px 6px #00000029;
+    font-size: 20px;
+    background-color: white;
+}
+.heading-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px;
+}
+.Entities{
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: -5px 5px 3px #00000029;
+    font-size: 20px;
+    background-color: white;
+}
+.company-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px;
+}
+.company-emails{
+    width: min-content;
+    margin-right: 480px;
+    margin-top: 30px;
+}
+.navbar{
+    display: flex;
+    margin-left: 24px;
+    box-shadow: -5px 5px 3px #00000029;
+}
+.routes{
+    padding: 0px 10px;
+}
+
+/* Dropdown*/
+.Entities-heading{
+    width: 77px;
+    margin-top: 21px;
+    margin-left: 37px;
+    font-size: 19px;
+}
+.Entities-navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 3px #00000029;
+}
+/* .dropdown1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0px 70px;
+    margin-left: 22px;
+    position: relative;
+    background-color: #F7FBFC;
+} */
+.dropdown1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 14px;
+    position: relative;
+    background-color: #F7FBFC;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: -800px;
+}
+.menu-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -800px;
+}
+
+h3{
+    margin-left: -800px;
+}
+.MSLA-navbar{
+    display: flex;
+    margin-left: -800px;
+    justify-content: space-around;
+}
+.services{
+    display: flex;
+    margin-left: -800px;
+    justify-content: space-around;
+
+}
+.address-details{
+    margin: 5px 0px;
+    font-weight: 500px;
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1840px){
+.title{
+    width: 410px
+}
+.clients-data{
+    width:385px
+}
+.section2{
+    margin-left: 55px;
+}
+.profile{
+    width:1058px
+}
+.Entities{
+    font-size: 16px;
+    height: 600px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-left: -890px;
+}
+.menu-2{
+    margin-left: -890px;
+}
+h3{
+    margin-left: -890px;
+}
+.MSLA-navbar{
+    margin-left: -890px;
+}
+.services{
+    margin-left: -890px;
+}
+}
+
+
+@media screen and (max-width: 400px){
+.title{
+   width: 500px; 
+}
+.sidebar{
+    width: 0px;
+}
+.icons{
+    width: 0px;
+    height: 0px;
+}
+.Homepage{
+    flex-wrap: wrap;
+}
+.profile{
+    width: 300px;
+}
+.dropdown1{
+    display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 250px;
+        gap: 35px 72px;
+        justify-content: center;
+        align-items: center;
+}
+.details{
+    width: 300px;
+    box-shadow: 0px 1px 6px #00000029;
+    font-size: 20px;
+    background-color: white;
+}
+.input{
+    font-size: 18px;
+    width: 80%;
+    height: 39px;
+    margin: 8px 13px;
+}
+
+}
+
+
